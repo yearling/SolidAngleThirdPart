@@ -210,6 +210,7 @@
       <ShowIncludes>false</ShowIncludes>
       <ExceptionHandling>false</ExceptionHandling>
       <BrowseInformation>true</BrowseInformation>
+      <DisableSpecificWarnings>4267;4800;4459;4800;4146;4244;4458;4018;4245;4100;4706;4701</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <AdditionalOptions>/nologo /DLL /MAP /DEBUG /fixed:no /INCREMENTAL:NO  /DEF:"$(IntDir)tbbmalloc.def" %(AdditionalOptions)</AdditionalOptions>
@@ -260,6 +261,7 @@
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>false</ExceptionHandling>
+      <DisableSpecificWarnings>4267;4800;4459;4800;4146;4244;4458;4018;4245;4100;4706;4701</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <AdditionalOptions>/nologo /DLL /MAP /DEBUG /fixed:no /INCREMENTAL:NO /DEF:"$(IntDir)tbbmalloc.def" %(AdditionalOptions)</AdditionalOptions>
@@ -314,6 +316,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ShowIncludes>false</ShowIncludes>
       <ExceptionHandling>false</ExceptionHandling>
+      <DisableSpecificWarnings>4267;4800;4459;4800;4146;4244;4458;4018;4245;4100;4706;4701</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <AdditionalOptions>/nologo /DLL /MAP /DEBUG /fixed:no /INCREMENTAL:NO  /DEF:"$(IntDir)tbbmalloc.def" %(AdditionalOptions)</AdditionalOptions>
@@ -359,6 +362,7 @@
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>false</ExceptionHandling>
+      <DisableSpecificWarnings>4267;4800;4459;4800;4146;4244;4458;4018;4245;4100;4706;4701</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <AdditionalOptions>/nologo /DLL /MAP /DEBUG /fixed:no /INCREMENTAL:NO /DEF:"$(IntDir)tbbmalloc.def" %(AdditionalOptions)</AdditionalOptions>
