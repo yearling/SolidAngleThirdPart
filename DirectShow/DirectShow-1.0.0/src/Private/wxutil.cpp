@@ -11,7 +11,8 @@
 #include <streams.h>
 #define STRSAFE_NO_DEPRECATE
 #include <strsafe.h>
-
+#include <mmsystem.h> 
+#pragma comment(lib,"winmm.lib")
 
 // --- CAMEvent -----------------------
 CAMEvent::CAMEvent(BOOL fManualReset, __inout_opt HRESULT *phr)
