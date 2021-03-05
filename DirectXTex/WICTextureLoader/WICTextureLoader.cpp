@@ -176,7 +176,8 @@ namespace
         InitOnceExecuteOnce(&s_initOnce,
             [](PINIT_ONCE, PVOID, PVOID *factory) -> BOOL
         {
-#if (_WIN32_WINNT >= _WIN32_WINNT_WIN8) || defined(_WIN7_PLATFORM_UPDATE)
+//#if (_WIN32_WINNT >= _WIN32_WINNT_WIN8) || defined(_WIN7_PLATFORM_UPDATE)
+#if 0
             HRESULT hr = CoCreateInstance(
                 CLSID_WICImagingFactory2,
                 nullptr,
